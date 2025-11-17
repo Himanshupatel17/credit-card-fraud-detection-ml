@@ -4,18 +4,18 @@ _Detecting fraudulent financial transactions using ML, SQL, Streamlit, and Power
 
 ---
 ## 📌 Table of Contents
--<a href="#overview">Overview</a>
--<a href="#problem-statement">Problem Statement</a>
--<a href="#dataset">Dataset</a>
--<a href="#tools-and-technologies">Tools & Technologies</a>
--<a href="#project-structure">project structure</a>
--<a href="#methods">Methods</a>
--<a href="#key-insights">Key Insights</a>
--<a href="#dashboard-model-output">Dashboard / Model / Output</a>
--<a href="#how-to-run-this-project">How to Run This Project</a>
--<a href="#results--conclusion">Results & Conclusion</a>
--<a href="#future-work">Future Work</a>
--<a href="#author--contact">Author & Contact</a>
+- <a href="#overview">Overview</a>
+- <a href="#problem-statement">Problem Statement</a>
+- <a href="#dataset">Dataset</a>
+- <a href="#tools-and-technologies">Tools & Technologies</a>
+- <a href="#project-structure">project structure</a>
+- <a href="#methods">Methods</a>
+- <a href="#key-insights">Key Insights</a>
+- <a href="#dashboard-model-output">Dashboard / Model / Output</a>
+- <a href="#how-to-run-this-project">How to Run This Project</a>
+- <a href="#results--conclusion">Results & Conclusion</a>
+- <a href="#future-work">Future Work</a>
+- <a href="#author--contact">Author & Contact</a>
 
 ---
 <h2><a class="anchor" id="overview"></a>Overview</h2>
@@ -140,7 +140,7 @@ Shows:
 ![Credit card dashboard](Dashboard/Dashboard.img.png)
 
 ---
-<h2><a class="anchor" id="How-to-run-this-project"></a> how to run this project</h2>
+## how-to-run-this-project
 
 1️. Clone Repo:
  ```bash
@@ -173,7 +173,7 @@ dashboard/fraud_detection_dashboard.pbix
  ```
 
 ---
-<h2><a class="anchor" id="Result-and-conclusion"></a> result and conclusion</h2>
+## Result-and-conclusion
 **Results & Conclusion:**
 
 -Random Forest achieved 99.97% accuracy
@@ -192,11 +192,11 @@ dashboard/fraud_detection_dashboard.pbix
 **Improve explainability (SHAP values, LIME):**
 
 ---
-<h2><a class="anchor" id="author--contact"></a> author and contact</h2>
+## author--contact
 
 **Himanshu Patel:**
 Machine Learning & Data Science Enthusiast
 
 📧 Email: hhimanshu714@gmail.com
-🔗 [GitHub] (https://github.com/Himanshupatel17/credit-card-fraud-detection-ml)
-🔗 [LinkedIn] (www.linkedin.com/in/himanshupatel1715)
+🔗 [GitHub](https://github.com/Himanshupatel17/credit-card-fraud-detection-ml)
+🔗 [LinkedIn](www.linkedin.com/in/himanshupatel1715)
