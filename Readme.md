@@ -27,11 +27,11 @@ It replicates a real-world financial fraud detection workflow used in banks and 
 ---
 <h2><a class="anchor" id="problem-statement"></a> Problem Statement</h2>
 
--Credit card fraud causes massive financial losses.
--Traditional rule-based systems fail because:
--Fraud patterns change quickly
--Attackers adapt to rules
--Rules cannot detect non-obvious anomalies
+- Credit card fraud causes massive financial losses.
+- Traditional rule-based systems fail because:
+- Fraud patterns change quickly
+- Attackers adapt to rules
+- Rules cannot detect non-obvious anomalies
 
 ---
 Goal:
@@ -40,25 +40,25 @@ Build an ML-based system that accurately predicts whether a transaction is fraud
 ---
 <h2><a class="anchor" id="dataset"></a> Dataset</h2>
 
--Source: Kaggle – Credit Card Fraud Detection
--Rows: 284,807
--Features:
--Time, Amount
--V1–V28 (PCA transformed)
--Class (0 = genuine, 1 = fraud)
+- Source: Kaggle – Credit Card Fraud Detection
+- Rows: 284,807
+- Features:
+- Time, Amount
+- V1–V28 (PCA transformed)
+- Class (0 = genuine, 1 = fraud)
 
 Imbalance:
--Fraud = 492 cases (0.17%) → solved using SMOTE.
+- Fraud = 492 cases (0.17%) → solved using SMOTE.
 
 ---
 <h2><a class="anchor" id="tools-and-technologies"></a> Tools & Technologies</h2>
 
--Python (Pandas, NumPy, Scikit-learn, XGBoost, imblearn)
--Streamlit (Deployment UI)
--MySQL (Prediction logging)
--SQLAlchemy, PyMySQL
--Power BI (Dashboard)
--Git & GitHub
+- Python (Pandas, NumPy, Scikit-learn, XGBoost, imblearn)
+- Streamlit (Deployment UI)
+- MySQL (Prediction logging)
+- SQLAlchemy, PyMySQL
+- Power BI (Dashboard)
+- Git & GitHub
 
 ---
 <h2><a class="anchor" id="project-structure"></a>project structure</h2>
@@ -88,46 +88,46 @@ credit-card-fraud-detection-ml/
 
 ---
 <h2 id="methods">🔬 Methods</h2>
--Data Preprocessing
--Cleaned dataset
--Standardization
--SMOTE oversampling for balance
+- Data Preprocessing
+- Cleaned dataset
+- Standardization
+- SMOTE oversampling for balance
 
 --Model Training
 
 Trained 3 models:
 
--Logistic Regression
--Random Forest
--XGBoost
+- Logistic Regression
+- Random Forest
+- XGBoost
 
 Random Forest performed the best → deployed.
--Deployment
--Saved model (.pkl)
--Built Streamlit interface
--Manual + CSV prediction
--Stored predictions in MySQL
+- Deployment
+- Saved model (.pkl)
+- Built Streamlit interface
+- Manual + CSV prediction
+- Stored predictions in MySQL
 
 ---
 <h2><a class="anchor" id="key-insights"></a> Key Insights</h2>
 
--Fraud and genuine transactions show clear PCA separation
--SMOTE significantly improves fraud recall
--Random Forest yields highest overall performance
--ML reduces false negatives (most dangerous type)
--Amount alone doesn’t identify fraud
+- Fraud and genuine transactions show clear PCA separation
+- SMOTE significantly improves fraud recall
+- Random Forest yields highest overall performance
+- ML reduces false negatives (most dangerous type)
+- Amount alone doesn’t identify fraud
 
 ---
 <h2><a class="anchor" id="dashboard-model-output"></a> Dashboard / Model / Output</h2>
 
 **Streamlit App:**
 
--30-feature manual prediction
--CSV bulk prediction
--Pie charts, bar charts, distribution plots
--MySQL logging
--MySQL
--Stores all predictions with all 30 features.
+- 30-feature manual prediction
+- CSV bulk prediction
+- Pie charts, bar charts, distribution plots
+- MySQL logging
+- MySQL
+- Stores all predictions with all 30 features.
 
 **Power BI:**
 
@@ -157,9 +157,9 @@ python scripts/load_to_mysql.py
 
 4. Open and Run Analytical Notebooks
  ```bash
--notebooks/01_EDA.ipynb
--notebooks/02_Model_Training.ipynb
--notebooks/03_Model_Comparison.ipynb
+- notebooks/01_EDA.ipynb
+- notebooks/02_Model_Training.ipynb
+- notebooks/03_Model_Comparison.ipynb
  ```
 
 4. Run Streamlit App
@@ -176,18 +176,18 @@ dashboard/fraud_detection_dashboard.pbix
 ## Result-and-conclusion
 **Results & Conclusion:**
 
--Random Forest achieved 99.97% accuracy
--Fraud recall significantly improved after SMOTE
--Complete working ML pipeline built end-to-end
--System supports real-time-like fraud prediction
--Accurate AND practical for real business use cases
+- Random Forest achieved 99.97% accuracy
+- Fraud recall significantly improved after SMOTE
+- Complete working ML pipeline built end-to-end
+- System supports real-time-like fraud prediction
+- Accurate AND practical for real business use cases
 
 **Future Work:**
 
--Real-time API-based fraud detection
--Deep learning models (Autoencoders, LSTM)
--Deploy to AWS/Azure/GCP
--Notification system for high-risk transactions
+- Real-time API-based fraud detection
+- Deep learning models (Autoencoders, LSTM)
+- Deploy to AWS/Azure/GCP
+- Notification system for high-risk transactions
 
 **Improve explainability (SHAP values, LIME):**
 
@@ -197,7 +197,7 @@ dashboard/fraud_detection_dashboard.pbix
 **Himanshu Patel:**
 Machine Learning & Data Science Enthusiast
 
-📧 Email: hhimanshu714@gmail.com
-🔗 [GitHub](https://github.com/Himanshupatel17/credit-card-fraud-detection-ml)
-🔗 [LinkedIn](www.linkedin.com/in/himanshupatel1715)
+📧  Email: hhimanshu714@gmail.com
+🔗 [GitHub](https://github.com/Himanshupatel17/credit-card-fraud-detection-ml/)
+🔗 [LinkedIn](www.linkedin.com/in/himanshupatel1715/)
 
