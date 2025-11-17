@@ -193,8 +193,8 @@ dashboard/fraud_detection_dashboard.pbix
 ---
 ## author--contact
 
-**Himanshu Patel**
-Machine Learning & Data Science Enthusiast
+**Himanshu Patel**  
+Machine Learning & Data Science Enthusiast  
 📧 Email: hhimanshu714@gmail.com  
 🔗 [GitHub](https://github.com/Himanshupatel17/credit-card-fraud-detection-ml/)  
 🔗 [LinkedIn](www.linkedin.com/in/himanshupatel1715/)  
