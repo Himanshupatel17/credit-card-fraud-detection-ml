@@ -173,8 +173,7 @@ dashboard/fraud_detection_dashboard.pbix
  ```
 
 ---
-## Result-and-conclusion
-**Results & Conclusion:**
+## results--conclusion
 
 - Random Forest achieved 99.97% accuracy
 - Fraud recall significantly improved after SMOTE
@@ -182,7 +181,7 @@ dashboard/fraud_detection_dashboard.pbix
 - System supports real-time-like fraud prediction
 - Accurate AND practical for real business use cases
 
-**Future Work:**
+## future-work
 
 - Real-time API-based fraud detection
 - Deep learning models (Autoencoders, LSTM)
@@ -194,10 +193,9 @@ dashboard/fraud_detection_dashboard.pbix
 ---
 ## author--contact
 
-**Himanshu Patel:**
+**Himanshu Patel**
 Machine Learning & Data Science Enthusiast
-
-📧  Email: hhimanshu714@gmail.com
-🔗 [GitHub](https://github.com/Himanshupatel17/credit-card-fraud-detection-ml/)
-🔗 [LinkedIn](www.linkedin.com/in/himanshupatel1715/)
+📧 Email: hhimanshu714@gmail.com  
+🔗 [GitHub](https://github.com/Himanshupatel17/credit-card-fraud-detection-ml/)  
+🔗 [LinkedIn](www.linkedin.com/in/himanshupatel1715/)  
 
