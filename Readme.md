@@ -1,9 +1,9 @@
-💳 Credit Card Fraud Detection | Machine Learning Project
+# Credit Card Fraud Detection | Machine Learning Project
 
 _Detecting fraudulent financial transactions using ML, SQL, Streamlit, and Power BI._
 
 ---
-📌 Table of Contents
+## 📌 Table of Contents
 -<a href="#overview">Overview</a>
 -<a href="#problem-statement">Problem Statement</a>
 -<a href="#dataset">Dataset</a>
@@ -140,7 +140,7 @@ Shows:
 ![Credit card dashboard](Dashboard/Dashboard.img.png)
 
 ---
-h2><a class="anchor" id="How-to-run-this-project"></a> how to run this project</h2>
+<h2><a class="anchor" id="How-to-run-this-project"></a> how to run this project</h2>
 
 1️. Clone Repo:
  ```bash
@@ -173,7 +173,7 @@ dashboard/fraud_detection_dashboard.pbix
  ```
 
 ---
-h2><a class="anchor" id="Result-and-conclusion"></a> result and conclusion</h2>
+<h2><a class="anchor" id="Result-and-conclusion"></a> result and conclusion</h2>
 **Results & Conclusion:**
 
 -Random Forest achieved 99.97% accuracy
@@ -192,11 +192,11 @@ h2><a class="anchor" id="Result-and-conclusion"></a> result and conclusion</h2>
 **Improve explainability (SHAP values, LIME):**
 
 ---
-h2><a class="anchor" id="author--contact"></a> author and contact</h2>
+<h2><a class="anchor" id="author--contact"></a> author and contact</h2>
 
 **Himanshu Patel:**
 Machine Learning & Data Science Enthusiast
 
-📧 Email: your-email
-🔗 GitHub: (https://github.com/Himanshupatel17/credit-card-fraud-detection-ml)
-🔗 LinkedIn: (www.linkedin.com/in/himanshupatel1715)
+📧 Email: hhimanshu714@gmail.com
+🔗 [GitHub] (https://github.com/Himanshupatel17/credit-card-fraud-detection-ml)
+🔗 [LinkedIn] (www.linkedin.com/in/himanshupatel1715)
